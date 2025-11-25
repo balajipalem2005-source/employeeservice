@@ -1,0 +1,289 @@
+2025-10-29T19:09:13.826+05:30  INFO 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 21.0.7 with PID 7696 (C:\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\employee-service\target\classes started by Lenovo in C:\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\employee-service)
+2025-10-29T19:09:13.828+05:30 DEBUG 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-29T19:09:13.829+05:30  INFO 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-10-29T19:09:13.898+05:30  INFO 7696 --- [employee-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-29T19:09:13.899+05:30  INFO 7696 --- [employee-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-29T19:09:14.828+05:30  INFO 7696 --- [employee-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-29T19:09:14.891+05:30  INFO 7696 --- [employee-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+2025-10-29T19:09:15.125+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=45115d07-b05f-369f-b7c3-00207a2e8f56
+2025-10-29T19:09:15.657+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-29T19:09:15.675+05:30  INFO 7696 --- [employee-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-29T19:09:15.675+05:30  INFO 7696 --- [employee-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-29T19:09:15.736+05:30  INFO 7696 --- [employee-service] [restartedMain] o.a.c.c.C.[.[.[/employee-service]        : Initializing Spring embedded WebApplicationContext
+2025-10-29T19:09:15.736+05:30  INFO 7696 --- [employee-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1836 ms
+2025-10-29T19:09:15.920+05:30  INFO 7696 --- [employee-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-29T19:09:15.991+05:30  INFO 7696 --- [employee-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-29T19:09:16.035+05:30  INFO 7696 --- [employee-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-29T19:09:16.382+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-29T19:09:16.430+05:30  INFO 7696 --- [employee-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-29T19:09:16.868+05:30  INFO 7696 --- [employee-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6dab1b98
+2025-10-29T19:09:16.871+05:30  INFO 7696 --- [employee-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-29T19:09:16.992+05:30  INFO 7696 --- [employee-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-29T19:09:18.062+05:30  INFO 7696 --- [employee-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-29T19:09:18.157+05:30  INFO 7696 --- [employee-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-29T19:09:18.536+05:30  WARN 7696 --- [employee-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-29T19:09:18.584+05:30  WARN 7696 --- [employee-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-29T19:09:19.054+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/employee-service'
+2025-10-29T19:09:19.067+05:30  INFO 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 5.784 seconds (process running for 7.134)
+2025-10-29T19:09:29.671+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/employee-service]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-29T19:09:29.672+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-29T19:09:29.675+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-10-29T19:09:29.840+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] c.E.demo.Controller.EmployeeController   : Received API request: GET /employees/2
+2025-10-29T19:09:29.840+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] c.Employee.demo.Service.EmployeeService  : Fetching employee details for ID: 2
+2025-10-29T19:09:29.935+05:30 DEBUG 7696 --- [employee-service] [http-nio-8080-exec-2] c.Employee.demo.Service.EmployeeService  : Employee entity fetched: Employee [id=2, name=asish, email=asish@gmail.com, age=30]
+2025-10-29T19:09:29.966+05:30 DEBUG 7696 --- [employee-service] [http-nio-8080-exec-2] c.Employee.demo.Service.EmployeeService  : Mapped EmployeeResponse created: EmployeeResponse [id=2, name=asish, email=asish@gmail.com, age=30, addressResponse=null]
+2025-10-29T19:09:29.968+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] c.Employee.demo.Service.EmployeeService  : Calling AddressClient to fetch address for employeeId: 2
+2025-10-29T19:09:30.249+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] c.Employee.demo.Service.EmployeeService  : AddressResponse successfully attached for employeeId: 2
+2025-10-29T19:09:30.250+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] c.Employee.demo.Service.EmployeeService  : Final EmployeeResponse prepared successfully for ID: 2
+2025-10-29T19:09:30.252+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] c.E.demo.Controller.EmployeeController   : Returning employee details for employeeId: 2
+2025-10-29T19:09:30.253+05:30 DEBUG 7696 --- [employee-service] [http-nio-8080-exec-2] c.E.demo.Controller.EmployeeController   : Response body: EmployeeResponse [id=2, name=asish, email=asish@gmail.com, age=30, addressResponse=com.Employee.demo.response.AddressResponse@74607eed]
+2025-10-29T19:15:32.016+05:30  INFO 7696 --- [employee-service] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-29T19:15:32.220+05:30  INFO 7696 --- [employee-service] [Thread-1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-29T19:15:32.263+05:30  INFO 7696 --- [employee-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-29T19:15:32.323+05:30  INFO 7696 --- [employee-service] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-29T19:15:32.430+05:30  INFO 7696 --- [employee-service] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-29T19:15:32.539+05:30  INFO 7696 --- [employee-service] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-29T19:15:33.151+05:30  INFO 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 21.0.7 with PID 7696 (C:\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\employee-service\target\classes started by Lenovo in C:\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\employee-service)
+2025-10-29T19:15:33.153+05:30 DEBUG 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-29T19:15:33.153+05:30  INFO 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-10-29T19:15:33.600+05:30  INFO 7696 --- [employee-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-29T19:15:33.645+05:30  INFO 7696 --- [employee-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2025-10-29T19:15:33.825+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=45115d07-b05f-369f-b7c3-00207a2e8f56
+2025-10-29T19:15:33.984+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-29T19:15:33.989+05:30  INFO 7696 --- [employee-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-29T19:15:33.989+05:30  INFO 7696 --- [employee-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-29T19:15:34.037+05:30  INFO 7696 --- [employee-service] [restartedMain] o.a.c.c.C.[.[.[/employee-service]        : Initializing Spring embedded WebApplicationContext
+2025-10-29T19:15:34.037+05:30  INFO 7696 --- [employee-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 878 ms
+2025-10-29T19:15:34.121+05:30  INFO 7696 --- [employee-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-29T19:15:34.125+05:30  INFO 7696 --- [employee-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-29T19:15:34.148+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-29T19:15:34.151+05:30  INFO 7696 --- [employee-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-10-29T19:15:34.273+05:30  INFO 7696 --- [employee-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39fde094
+2025-10-29T19:15:34.274+05:30  INFO 7696 --- [employee-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-10-29T19:15:34.278+05:30  INFO 7696 --- [employee-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-29T19:15:34.358+05:30  INFO 7696 --- [employee-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-29T19:15:34.430+05:30  INFO 7696 --- [employee-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-29T19:15:34.592+05:30  WARN 7696 --- [employee-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-29T19:15:34.622+05:30  WARN 7696 --- [employee-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-29T19:15:34.835+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/employee-service'
+2025-10-29T19:15:34.844+05:30  INFO 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 1.8 seconds (process running for 382.91)
+2025-10-29T19:15:34.847+05:30  INFO 7696 --- [employee-service] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-29T19:18:06.644+05:30  INFO 7696 --- [employee-service] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-29T19:18:06.679+05:30  INFO 7696 --- [employee-service] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-29T19:18:06.697+05:30  INFO 7696 --- [employee-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-29T19:18:06.724+05:30  INFO 7696 --- [employee-service] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-29T19:18:06.771+05:30  INFO 7696 --- [employee-service] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-10-29T19:18:06.810+05:30  INFO 7696 --- [employee-service] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-10-29T19:18:07.202+05:30  INFO 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 21.0.7 with PID 7696 (C:\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\employee-service\target\classes started by Lenovo in C:\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\employee-service)
+2025-10-29T19:18:07.203+05:30 DEBUG 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-29T19:18:07.203+05:30  INFO 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-10-29T19:18:07.452+05:30  INFO 7696 --- [employee-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-29T19:18:07.468+05:30  INFO 7696 --- [employee-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2025-10-29T19:18:07.528+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=45115d07-b05f-369f-b7c3-00207a2e8f56
+2025-10-29T19:18:07.619+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-29T19:18:07.622+05:30  INFO 7696 --- [employee-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-29T19:18:07.622+05:30  INFO 7696 --- [employee-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-29T19:18:07.652+05:30  INFO 7696 --- [employee-service] [restartedMain] o.a.c.c.C.[.[.[/employee-service]        : Initializing Spring embedded WebApplicationContext
+2025-10-29T19:18:07.653+05:30  INFO 7696 --- [employee-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 446 ms
+2025-10-29T19:18:07.697+05:30  INFO 7696 --- [employee-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-29T19:18:07.703+05:30  INFO 7696 --- [employee-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-29T19:18:07.712+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-29T19:18:07.714+05:30  INFO 7696 --- [employee-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-10-29T19:18:07.760+05:30  INFO 7696 --- [employee-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c83ab10
+2025-10-29T19:18:07.760+05:30  INFO 7696 --- [employee-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-10-29T19:18:07.763+05:30  INFO 7696 --- [employee-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-29T19:18:07.796+05:30  INFO 7696 --- [employee-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-29T19:18:07.846+05:30  INFO 7696 --- [employee-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-29T19:18:07.951+05:30  WARN 7696 --- [employee-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-29T19:18:07.969+05:30  WARN 7696 --- [employee-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-29T19:18:08.103+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/employee-service'
+2025-10-29T19:18:08.111+05:30  INFO 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 0.953 seconds (process running for 536.177)
+2025-10-29T19:18:08.112+05:30  INFO 7696 --- [employee-service] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-29T19:18:45.360+05:30  INFO 9696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 21.0.7 with PID 9696 (C:\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\employee-service\target\classes started by Lenovo in C:\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\employee-service)
+2025-10-29T19:18:45.362+05:30 DEBUG 9696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-29T19:18:45.364+05:30  INFO 9696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-10-29T19:18:45.423+05:30  INFO 9696 --- [employee-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-29T19:18:45.424+05:30  INFO 9696 --- [employee-service] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-29T19:18:46.200+05:30  INFO 9696 --- [employee-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-29T19:18:46.251+05:30  INFO 9696 --- [employee-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2025-10-29T19:18:46.463+05:30  INFO 9696 --- [employee-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=45115d07-b05f-369f-b7c3-00207a2e8f56
+2025-10-29T19:18:46.907+05:30  INFO 9696 --- [employee-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-29T19:18:46.924+05:30  INFO 9696 --- [employee-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-29T19:18:46.925+05:30  INFO 9696 --- [employee-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-29T19:18:46.986+05:30  INFO 9696 --- [employee-service] [restartedMain] o.a.c.c.C.[.[.[/employee-service]        : Initializing Spring embedded WebApplicationContext
+2025-10-29T19:18:46.986+05:30  INFO 9696 --- [employee-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1562 ms
+2025-10-29T19:18:47.181+05:30  INFO 9696 --- [employee-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-29T19:18:47.233+05:30  INFO 9696 --- [employee-service] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-29T19:18:47.272+05:30  INFO 9696 --- [employee-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-29T19:18:47.534+05:30  INFO 9696 --- [employee-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-29T19:18:47.568+05:30  INFO 9696 --- [employee-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-29T19:18:47.890+05:30  INFO 9696 --- [employee-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4caee9d7
+2025-10-29T19:18:47.892+05:30  INFO 9696 --- [employee-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-29T19:18:48.002+05:30  INFO 9696 --- [employee-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-29T19:18:48.933+05:30  INFO 9696 --- [employee-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-29T19:18:49.003+05:30  INFO 9696 --- [employee-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-29T19:18:49.292+05:30  WARN 9696 --- [employee-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-29T19:18:49.335+05:30  WARN 9696 --- [employee-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-29T19:18:49.763+05:30  WARN 9696 --- [employee-service] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-10-29T19:18:49.767+05:30  INFO 9696 --- [employee-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-29T19:18:49.770+05:30  INFO 9696 --- [employee-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-29T19:18:49.782+05:30  INFO 9696 --- [employee-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-29T19:18:49.797+05:30  INFO 9696 --- [employee-service] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-29T19:18:49.816+05:30 ERROR 9696 --- [employee-service] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-10-29T19:18:54.225+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/employee-service]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-29T19:18:54.227+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-29T19:18:54.231+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-10-29T19:18:54.259+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-3] c.E.demo.Controller.EmployeeController   : Received API request: GET /employees/2
+2025-10-29T19:18:54.259+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-3] c.Employee.demo.Service.EmployeeService  : Fetching employee details for ID: 2
+2025-10-29T19:18:54.286+05:30 DEBUG 7696 --- [employee-service] [http-nio-8080-exec-3] c.Employee.demo.Service.EmployeeService  : Employee entity fetched: Employee [id=2, name=asish, email=asish@gmail.com, age=30]
+2025-10-29T19:18:54.304+05:30 DEBUG 7696 --- [employee-service] [http-nio-8080-exec-3] c.Employee.demo.Service.EmployeeService  : Mapped EmployeeResponse created: EmployeeResponse [id=2, name=asish, email=asish@gmail.com, age=30, addressResponse=null]
+2025-10-29T19:18:54.314+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-3] c.Employee.demo.Service.EmployeeService  : Calling AddressClient to fetch address for employeeId: 2
+2025-10-29T19:18:54.868+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-3] c.Employee.demo.Service.EmployeeService  : AddressResponse successfully attached for employeeId: 2
+2025-10-29T19:18:54.869+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-3] c.Employee.demo.Service.EmployeeService  : Final EmployeeResponse prepared successfully for ID: 2
+2025-10-29T19:18:54.869+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-3] c.E.demo.Controller.EmployeeController   : Returning employee details for employeeId: 2
+2025-10-29T19:18:54.869+05:30 DEBUG 7696 --- [employee-service] [http-nio-8080-exec-3] c.E.demo.Controller.EmployeeController   : Response body: EmployeeResponse [id=2, name=asish, email=asish@gmail.com, age=30, addressResponse=com.Employee.demo.response.AddressResponse@12d3d463]
+2025-10-29T19:24:53.028+05:30  INFO 7696 --- [employee-service] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-29T19:24:53.144+05:30  INFO 7696 --- [employee-service] [Thread-13] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-29T19:24:53.179+05:30  INFO 7696 --- [employee-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-29T19:24:53.239+05:30  INFO 7696 --- [employee-service] [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-29T19:24:53.311+05:30  INFO 7696 --- [employee-service] [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-10-29T19:24:53.398+05:30  INFO 7696 --- [employee-service] [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-10-29T19:24:55.211+05:30  INFO 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 21.0.7 with PID 7696 (C:\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\employee-service\target\classes started by Lenovo in C:\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\employee-service)
+2025-10-29T19:24:55.211+05:30 DEBUG 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-29T19:24:55.212+05:30  INFO 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-10-29T19:24:56.510+05:30  INFO 7696 --- [employee-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-29T19:24:56.528+05:30  INFO 7696 --- [employee-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interface.
+2025-10-29T19:24:56.675+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=45115d07-b05f-369f-b7c3-00207a2e8f56
+2025-10-29T19:24:56.922+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-29T19:24:56.924+05:30  INFO 7696 --- [employee-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-29T19:24:56.925+05:30  INFO 7696 --- [employee-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-29T19:24:56.955+05:30  INFO 7696 --- [employee-service] [restartedMain] o.a.c.c.C.[.[.[/employee-service]        : Initializing Spring embedded WebApplicationContext
+2025-10-29T19:24:56.955+05:30  INFO 7696 --- [employee-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1734 ms
+2025-10-29T19:24:56.997+05:30  INFO 7696 --- [employee-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-29T19:24:57.000+05:30  INFO 7696 --- [employee-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-29T19:24:57.014+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-29T19:24:57.015+05:30  INFO 7696 --- [employee-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-10-29T19:24:57.092+05:30  INFO 7696 --- [employee-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3cae89f1
+2025-10-29T19:24:57.092+05:30  INFO 7696 --- [employee-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-10-29T19:24:57.095+05:30  INFO 7696 --- [employee-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-29T19:24:57.147+05:30  INFO 7696 --- [employee-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-29T19:24:57.189+05:30  INFO 7696 --- [employee-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-29T19:24:57.329+05:30  WARN 7696 --- [employee-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-29T19:24:57.357+05:30  WARN 7696 --- [employee-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-29T19:24:57.615+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/employee-service'
+2025-10-29T19:24:57.646+05:30  INFO 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 2.755 seconds (process running for 945.713)
+2025-10-29T19:24:57.648+05:30  INFO 7696 --- [employee-service] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-29T19:25:15.109+05:30  INFO 7696 --- [employee-service] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-29T19:25:15.113+05:30  INFO 7696 --- [employee-service] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-29T19:25:15.125+05:30  INFO 7696 --- [employee-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-29T19:25:15.130+05:30  INFO 7696 --- [employee-service] [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-29T19:25:15.132+05:30  INFO 7696 --- [employee-service] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-10-29T19:25:15.139+05:30  INFO 7696 --- [employee-service] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2025-10-29T19:25:15.270+05:30  INFO 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 21.0.7 with PID 7696 (C:\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\employee-service\target\classes started by Lenovo in C:\workspace-spring-tools-for-eclipse-4.31.0.RELEASE\employee-service)
+2025-10-29T19:25:15.270+05:30 DEBUG 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-29T19:25:15.270+05:30  INFO 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-10-29T19:25:15.449+05:30  INFO 7696 --- [employee-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-29T19:25:15.459+05:30  INFO 7696 --- [employee-service] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2025-10-29T19:25:15.508+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=45115d07-b05f-369f-b7c3-00207a2e8f56
+2025-10-29T19:25:15.579+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-29T19:25:15.580+05:30  INFO 7696 --- [employee-service] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-29T19:25:15.580+05:30  INFO 7696 --- [employee-service] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-29T19:25:15.603+05:30  INFO 7696 --- [employee-service] [restartedMain] o.a.c.c.C.[.[.[/employee-service]        : Initializing Spring embedded WebApplicationContext
+2025-10-29T19:25:15.603+05:30  INFO 7696 --- [employee-service] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 331 ms
+2025-10-29T19:25:15.633+05:30  INFO 7696 --- [employee-service] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-29T19:25:15.636+05:30  INFO 7696 --- [employee-service] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-29T19:25:15.642+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-29T19:25:15.643+05:30  INFO 7696 --- [employee-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2025-10-29T19:25:15.659+05:30  INFO 7696 --- [employee-service] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5111af7b
+2025-10-29T19:25:15.660+05:30  INFO 7696 --- [employee-service] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2025-10-29T19:25:15.661+05:30  INFO 7696 --- [employee-service] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 8.0.43
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-29T19:25:15.694+05:30  INFO 7696 --- [employee-service] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-29T19:25:15.716+05:30  INFO 7696 --- [employee-service] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-29T19:25:15.792+05:30  WARN 7696 --- [employee-service] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-29T19:25:15.813+05:30  WARN 7696 --- [employee-service] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-10-29T19:25:15.944+05:30  INFO 7696 --- [employee-service] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/employee-service'
+2025-10-29T19:25:15.951+05:30  INFO 7696 --- [employee-service] [restartedMain] c.E.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 0.722 seconds (process running for 964.018)
+2025-10-29T19:25:15.952+05:30  INFO 7696 --- [employee-service] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-29T19:25:35.314+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/employee-service]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-29T19:25:35.314+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-29T19:25:35.318+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-10-29T19:25:35.325+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] c.E.demo.Controller.EmployeeController   : Received API request: GET /employees/2
+2025-10-29T19:25:35.326+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] c.Employee.demo.Service.EmployeeService  : Fetching employee details for ID: 2
+2025-10-29T19:25:35.349+05:30 DEBUG 7696 --- [employee-service] [http-nio-8080-exec-2] c.Employee.demo.Service.EmployeeService  : Employee entity fetched: Employee [id=2, name=asish, email=asish@gmail.com, age=30]
+2025-10-29T19:25:35.360+05:30 DEBUG 7696 --- [employee-service] [http-nio-8080-exec-2] c.Employee.demo.Service.EmployeeService  : Mapped EmployeeResponse created: EmployeeResponse [id=2, name=asish, email=asish@gmail.com, age=30, addressResponse=null]
+2025-10-29T19:25:35.367+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] c.Employee.demo.Service.EmployeeService  : Calling AddressClient to fetch address for employeeId: 2
+2025-10-29T19:25:36.735+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] c.Employee.demo.Service.EmployeeService  : AddressResponse successfully attached for employeeId: 2
+2025-10-29T19:25:36.736+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] c.Employee.demo.Service.EmployeeService  : Final EmployeeResponse prepared successfully for ID: 2
+2025-10-29T19:25:36.736+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-2] c.E.demo.Controller.EmployeeController   : Returning employee details for employeeId: 2
+2025-10-29T19:25:36.736+05:30 DEBUG 7696 --- [employee-service] [http-nio-8080-exec-2] c.E.demo.Controller.EmployeeController   : Response body: EmployeeResponse [id=2, name=asish, email=asish@gmail.com, age=30, addressResponse=AddressResponse [id=1, city=BLS, state=Odisha]]
+2025-10-29T19:28:46.484+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-5] c.E.demo.Controller.EmployeeController   : Received API request: GET /employees/3
+2025-10-29T19:28:46.489+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-5] c.Employee.demo.Service.EmployeeService  : Fetching employee details for ID: 3
+2025-10-29T19:28:46.524+05:30  WARN 7696 --- [employee-service] [http-nio-8080-exec-5] c.Employee.demo.Service.EmployeeService  : No employee found with ID: 3
+2025-10-29T19:28:46.525+05:30  WARN 7696 --- [employee-service] [http-nio-8080-exec-5] c.E.demo.Controller.EmployeeController   : No data found for employeeId: 3
+2025-10-29T19:33:43.071+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-9] c.E.demo.Controller.EmployeeController   : Received API request: GET /employees/3
+2025-10-29T19:33:43.071+05:30  INFO 7696 --- [employee-service] [http-nio-8080-exec-9] c.Employee.demo.Service.EmployeeService  : Fetching employee details for ID: 3
+2025-10-29T19:33:43.080+05:30  WARN 7696 --- [employee-service] [http-nio-8080-exec-9] c.Employee.demo.Service.EmployeeService  : No employee found with ID: 3
+2025-10-29T19:33:43.081+05:30  WARN 7696 --- [employee-service] [http-nio-8080-exec-9] c.E.demo.Controller.EmployeeController   : No data found for employeeId: 3
+2025-10-29T20:24:55.121+05:30  INFO 7696 --- [employee-service] [RMI TCP Connection(79)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-29T20:24:55.222+05:30  INFO 7696 --- [employee-service] [RMI TCP Connection(79)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-29T20:24:55.243+05:30  INFO 7696 --- [employee-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-29T20:24:55.267+05:30  INFO 7696 --- [employee-service] [RMI TCP Connection(79)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-29T20:24:55.303+05:30  INFO 7696 --- [employee-service] [RMI TCP Connection(79)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2025-10-29T20:24:55.311+05:30  INFO 7696 --- [employee-service] [RMI TCP Connection(79)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
