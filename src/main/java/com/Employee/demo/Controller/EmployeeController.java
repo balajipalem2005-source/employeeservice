@@ -25,6 +25,7 @@ public class EmployeeController {
     public ResponseEntity<EmployeeResponse> getEmployeeDetails(@PathVariable("id") int id) {
         log.info("Received API request: GET /employees/{}", id);
 //this is get mapping
+        //this mapping along with loggers
         EmployeeResponse employee = employeeService.getEmployeeById(id);
 
         if (employee == null) {
