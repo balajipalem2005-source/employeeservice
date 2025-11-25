@@ -24,7 +24,7 @@ public class EmployeeController {
     @GetMapping("/{id}")
     public ResponseEntity<EmployeeResponse> getEmployeeDetails(@PathVariable("id") int id) {
         log.info("Received API request: GET /employees/{}", id);
-
+//this is get mapping
         EmployeeResponse employee = employeeService.getEmployeeById(id);
 
         if (employee == null) {
